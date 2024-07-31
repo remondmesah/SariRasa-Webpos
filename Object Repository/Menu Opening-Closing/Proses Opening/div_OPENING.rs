@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_OPENING</name>
+   <tag></tag>
+   <elementGuidId>0e4f64e0-cb00-4fcd-b97a-9c48bdf7dd5a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.btn.btn-lg.btn-set.btn-cashier > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/main/div[2]/div/div/div[4]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4e35a0ac-18ad-4207-a88c-d99d77a5553f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> OPENING </value>
+      <webElementGuid>04d5c5f4-37a4-462d-bad0-560c96790e0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;home position-fixed top-0 end-0 bottom-0 start-0&quot;]/main[@class=&quot;ps-4 row justify-content-center&quot;]/div[@class=&quot;col-10&quot;]/div[@class=&quot;HomeSPV&quot;]/div[@class=&quot;row rows-col-12 gap-4 panel-scroll&quot;]/div[@class=&quot;col d-flex align-items-start&quot;]/div[@class=&quot;btn btn-lg btn-set btn-cashier&quot;]/div[1]</value>
+      <webElementGuid>d6e0d7fd-42b3-46fe-a51c-940ed4ad6f0e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/main/div[2]/div/div/div[4]/div/div</value>
+      <webElementGuid>e45f0acb-5a25-4cd5-92c0-f06d6240cbfd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CASHIER'])[1]/following::div[9]</value>
+      <webElementGuid>e92c07ca-96bf-4314-9202-43b7dd4d8ac9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UTILITY'])[1]/following::div[11]</value>
+      <webElementGuid>77b2e18c-49c5-4897-8b0d-6f1e09b62b8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CLOSING'])[1]/preceding::div[1]</value>
+      <webElementGuid>00f0a770-4cad-4a8e-b394-8b0922695162</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ORDER'])[1]/preceding::div[3]</value>
+      <webElementGuid>bca2bd6e-f05b-4bee-ac50-c03f4595da44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='OPENING']/parent::*</value>
+      <webElementGuid>4784122e-36a4-4385-a69e-4f5983653d74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div</value>
+      <webElementGuid>e2be0773-5200-4261-b0dd-1c9e18bba9ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' OPENING ' or . = ' OPENING ')]</value>
+      <webElementGuid>70fa4191-fd93-42b9-a2bc-27256af27e7c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

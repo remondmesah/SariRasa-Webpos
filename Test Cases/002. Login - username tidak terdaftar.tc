@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>002. Login - username tidak terdaftar</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>493e75fb-7012-4ae0-bd52-e62e0c2eb1d0</testCaseGuid>
+</TestCaseEntity>

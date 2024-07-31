@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01. Login - logout - managerial</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bf5602a2-64e7-46b2-8891-6d564cb2400d</testCaseGuid>
+</TestCaseEntity>

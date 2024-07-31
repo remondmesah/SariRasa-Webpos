@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_sedang opening  nominal  Rp5.000.000,-  by  SURIPTO  SURIPTO  belum closing  ORDER</name>
+   <tag></tag>
+   <elementGuidId>065c62e3-259e-451b-b682-0d8b50e4a755</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col.d-flex.align-items-center</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div/main/div/div[1]/div[1]/div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ec87a1d7-63e0-4c8d-8c3d-aa5101e3e68b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col d-flex align-items-center</value>
+      <webElementGuid>51693caa-9252-41b1-ac58-bf2ea21f5763</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> sedang opening  nominal : Rp 5.000.000,-  by : SURIPTO  SURIPTO  belum closing  ORDER </value>
+      <webElementGuid>a8657909-897d-49b0-903e-c67d25e325d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;home position-fixed top-0 end-0 bottom-0 start-0&quot;]/main[@class=&quot;ps-4 row justify-content-center&quot;]/div[@class=&quot;HomeCashier&quot;]/div[@class=&quot;row rows-col-12 gap-4&quot;]/div[@class=&quot;col d-flex align-items-center&quot;]</value>
+      <webElementGuid>27f8332b-fec2-4fb8-9ad6-a9528fcb10a9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/main/div/div/div</value>
+      <webElementGuid>16bdd25d-e042-49f0-982d-277afef8cf07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LOGOUT'])[1]/following::div[3]</value>
+      <webElementGuid>f7c63629-9078-4ced-a8fc-39e9c5d21855</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BERANDA'])[1]/following::div[3]</value>
+      <webElementGuid>001631fb-c2f5-43a8-b11a-b5ddcabf647c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div/div</value>
+      <webElementGuid>32e46430-6084-4d46-b5fd-6edbce46e1f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' sedang opening  nominal : Rp 5.000.000,-  by : SURIPTO  SURIPTO  belum closing  ORDER ' or . = ' sedang opening  nominal : Rp 5.000.000,-  by : SURIPTO  SURIPTO  belum closing  ORDER ')]</value>
+      <webElementGuid>6704aa6f-1174-4606-be26-e186fb71eebf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

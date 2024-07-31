@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_3</name>
+   <tag></tag>
+   <elementGuidId>3f371540-04d3-474a-a678-c9e747cbe8a8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/main/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div[2]/div/div[3]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>895b9339-88b9-43de-a2db-f0b797b36e46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 3 </value>
+      <webElementGuid>9a83e5ba-1af7-43b4-a20a-021bdcd91203</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;home position-fixed top-0 end-0 bottom-0 start-0&quot;]/main[@class=&quot;ps-4 row justify-content-center&quot;]/div[@class=&quot;HomeCashier&quot;]/div[2]/div[@class=&quot;pm-center&quot;]/div[@class=&quot;position-fixed bg-white top-0 bottom-0 start-0 end-0 d-flex&quot;]/div[@class=&quot;container-fluid position-relative h-50 align-self-center&quot;]/div[@class=&quot;card bg-transparent border-0&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row rows-col-12 justify-content-center&quot;]/div[@class=&quot;col align-self-center&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col-7&quot;]/div[@class=&quot;row text-center gap-1 justify-content-center&quot;]/div[@class=&quot;col-3 btn-ext-active&quot;]/span[1]</value>
+      <webElementGuid>cf5b3bef-f11e-4aac-9ec3-99c23854c32c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/main/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div[2]/div/div[3]/span</value>
+      <webElementGuid>dc0a76a5-e68a-4820-bddc-33ac1038e256</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch Key'])[1]/following::span[3]</value>
+      <webElementGuid>c68177eb-8894-4474-ac11-86e9f9df7dff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masukkan Jumlah Nominal'])[1]/following::span[4]</value>
+      <webElementGuid>7cdc6bfd-1d84-4e1c-a375-05f637dd462f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tutup'])[1]/preceding::span[8]</value>
+      <webElementGuid>4becceaf-4999-4956-92bf-30746fae6ba9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::span[8]</value>
+      <webElementGuid>62d8180e-b5cc-4623-8bfc-a69dbe5a8383</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='3']/parent::*</value>
+      <webElementGuid>d423c808-e8e8-4e71-8c9d-ade68ff64378</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[3]/span</value>
+      <webElementGuid>69ab40cd-3291-40dd-9b49-4b4f8ff407dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' 3 ' or . = ' 3 ')]</value>
+      <webElementGuid>a1b26af0-d4aa-4e98-a7f6-d850142cf33c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

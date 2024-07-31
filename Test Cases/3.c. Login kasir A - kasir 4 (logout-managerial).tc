@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>3.c. Login kasir A - kasir 4 (logout-managerial)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f03303a1-c2ae-4c32-b2d1-d6b8986ee558</testCaseGuid>
+</TestCaseEntity>

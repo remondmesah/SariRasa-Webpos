@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Pilih Default PrinterPrinter HO (Gud_2b3e02</name>
+   <tag></tag>
+   <elementGuidId>8f05fb34-7fc1-43a0-b7e4-034c5ef9e4ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#__BVID__20</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='__BVID__20']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>81db7205-aca0-4abf-b587-5d1d9eb2f89b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-2 custom-select custom-select-lg</value>
+      <webElementGuid>79419049-0e52-4847-8a44-ddc1b9cc4308</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>__BVID__20</value>
+      <webElementGuid>c9b0839c-63d7-457a-b28a-7dd9d3c20fe6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pilih Default PrinterPrinter HO (Gudang)1BILLHO</value>
+      <webElementGuid>adce99c9-61aa-4d96-9ae0-49a36a0881fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__BVID__20&quot;)</value>
+      <webElementGuid>5546f52d-0f40-4b7e-8bdb-7a4f46797fd2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='__BVID__20']</value>
+      <webElementGuid>249238ec-3e5e-404d-bf73-37c6288be691</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div/div[2]/select</value>
+      <webElementGuid>fc73a333-443f-4a79-a352-d1a789f5a17c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipe User'])[1]/following::select[1]</value>
+      <webElementGuid>0c68cf4d-8ba3-492f-af5c-b39a227e43b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Default Printer'])[1]/following::select[2]</value>
+      <webElementGuid>147ab454-c7b0-4160-b0ff-e58e3b235978</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Print'])[1]/preceding::select[1]</value>
+      <webElementGuid>06b2837d-9448-4d29-ab6b-0aea072364a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simpan'])[1]/preceding::select[1]</value>
+      <webElementGuid>d311db55-fcda-424a-9efe-594f51f3eec1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/select</value>
+      <webElementGuid>40008efe-93bd-4421-88ca-9b82df8cad09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = '__BVID__20' and (text() = 'Pilih Default PrinterPrinter HO (Gudang)1BILLHO' or . = 'Pilih Default PrinterPrinter HO (Gudang)1BILLHO')]</value>
+      <webElementGuid>f7aec069-6190-4c93-a214-eabcf967fef4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

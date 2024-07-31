@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_101</name>
+   <tag></tag>
+   <elementGuidId>f5a46c97-a577-4f04-a0e3-aca1c8a8531c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col.d-inline-block.p-0</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/div/div[4]/div/div[2]/div/div/span/div/div/div/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>aa9ef654-dd8b-495b-8ce9-eccfb428e860</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col d-inline-block p-0</value>
+      <webElementGuid>37ff0f67-51f3-4097-95b0-b894aa5619f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 101 </value>
+      <webElementGuid>243f49e5-161a-4106-a9ed-8d2200523abc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;position-absolute top-0 bottom-0 end-0 start-0 bg-white&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row justify-content-between justify-content-md-center me-1 ms-1 align-items-center&quot;]/div[@id=&quot;main&quot;]/div[@class=&quot;container-fluid p-0&quot;]/div[4]/div[@class=&quot;position-fixed top-0 bottom-0 start-0 end-0 bg-light overflow-auto container-fluid&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col-xl-10 col-11&quot;]/div[@class=&quot;container-fluid mainFrame&quot;]/span[1]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row border-bottom justify-content-center align-items-start align-content-start py-2 px-0&quot;]/div[@class=&quot;col p-2&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;text-center mr-2 py-2 text-secondary rounded shadow-sm border card-table col-4 col-lg-2 col-6 col-lg-4 col-8 col-lg-6&quot;]/div[@class=&quot;row mt-1&quot;]/div[@class=&quot;col d-inline-block p-0&quot;]</value>
+      <webElementGuid>0922a26a-ed23-4fdb-8102-b7318ad97609</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/div/div[4]/div/div[2]/div/div/span/div/div/div/div/div/div/div</value>
+      <webElementGuid>489d8f5a-778e-4d9b-b5df-7cebfd1a4366</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TAKEAWAY'])[1]/following::div[10]</value>
+      <webElementGuid>b7a8cb20-4152-499a-b0da-e03c11896b20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LANTAI 2'])[1]/following::div[10]</value>
+      <webElementGuid>1e0a1d61-c42c-46b4-abc1-da8101e878ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=': 4'])[1]/preceding::div[2]</value>
+      <webElementGuid>a438710e-e7b9-4c28-8ce7-52fc549d9a6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=': 4'])[2]/preceding::div[7]</value>
+      <webElementGuid>07df9534-e5ac-4b0c-81b8-d39f7e73c1bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='101']/parent::*</value>
+      <webElementGuid>86db95df-ec7e-40ac-aade-a212f2a24250</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/div/div/div/div/div/div/div</value>
+      <webElementGuid>829aadcc-53d9-4f8d-bdca-720bbeec4b29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' 101 ' or . = ' 101 ')]</value>
+      <webElementGuid>d728d77e-162d-4b85-bd8b-aeb7052cdd8e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

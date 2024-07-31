@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Masukkan Jumlah Nominal Switch Key  Rp _67c7c5</name>
+   <tag></tag>
+   <elementGuidId>e9cd772f-8c3a-4bba-af1b-dbc6c073be0a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.container-fluid.position-relative.h-50.align-self-center</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/main/div[2]/div/div[2]/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>72543aed-e532-49db-be79-0386c592adda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>container-fluid position-relative h-50 align-self-center</value>
+      <webElementGuid>b420e02d-6a4f-4bd5-a2ca-22dc29e477ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Masukkan Jumlah Nominal Switch Key  Rp 50.000  Rp 100.000  Rp 500.000  Tutup  OK  Hapus </value>
+      <webElementGuid>f9b97ebc-cc41-4d82-91f4-74970d76054c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;home position-fixed top-0 end-0 bottom-0 start-0&quot;]/main[@class=&quot;ps-4 row justify-content-center&quot;]/div[@class=&quot;col-10&quot;]/div[@class=&quot;HomeSPV&quot;]/div[2]/div[@class=&quot;pm-center&quot;]/div[@class=&quot;position-fixed bg-white top-0 bottom-0 start-0 end-0 d-flex&quot;]/div[@class=&quot;container-fluid position-relative h-50 align-self-center&quot;]</value>
+      <webElementGuid>ce389b01-0b00-4e90-b6dd-4895d0f08eb5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/main/div[2]/div/div[2]/div/div/div</value>
+      <webElementGuid>3eddcf36-7e52-462d-8de2-0e37e0de5ab3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SOON'])[1]/following::div[4]</value>
+      <webElementGuid>70efd220-bb8f-433f-8c1b-71294774a35c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ORDER'])[1]/following::div[5]</value>
+      <webElementGuid>e70e5048-e01c-4f1a-8d79-6adba2e949e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div/div/div</value>
+      <webElementGuid>c4b68c3a-316a-4bf7-8727-c6a82e3ef876</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Masukkan Jumlah Nominal Switch Key  Rp 50.000  Rp 100.000  Rp 500.000  Tutup  OK  Hapus ' or . = 'Masukkan Jumlah Nominal Switch Key  Rp 50.000  Rp 100.000  Rp 500.000  Tutup  OK  Hapus ')]</value>
+      <webElementGuid>1c61cbd2-e19d-4ef6-9ebe-2015ff128eb0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

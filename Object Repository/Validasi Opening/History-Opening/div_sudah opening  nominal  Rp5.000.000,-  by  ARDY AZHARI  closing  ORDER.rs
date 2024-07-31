@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_sudah opening  nominal  Rp5.000.000,-  by  ARDY AZHARI  closing  ORDER</name>
+   <tag></tag>
+   <elementGuidId>5445350b-ebf5-4e3b-aef5-42787cbf6058</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col.d-flex.align-items-center</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/main/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0b28861a-b5e7-47f6-9231-e01ddabad885</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col d-flex align-items-center</value>
+      <webElementGuid>70f125b6-ae9f-45f7-84ce-eb259c4c410d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> sudah opening  nominal : Rp 5.000.000,-  by : ARDY AZHARI  closing  ORDER </value>
+      <webElementGuid>efd2379c-e92d-4dff-941e-f15ed3069f4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;home position-fixed top-0 end-0 bottom-0 start-0&quot;]/main[@class=&quot;ps-4 row justify-content-center&quot;]/div[@class=&quot;HomeCashier&quot;]/div[@class=&quot;row rows-col-12 gap-4&quot;]/div[@class=&quot;col d-flex align-items-center&quot;]</value>
+      <webElementGuid>9c693684-166c-484a-b2f1-62c9a82aaaa0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/main/div/div/div</value>
+      <webElementGuid>bf11d3bd-daad-45bb-bbd6-7fedb34e59e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LOGOUT'])[1]/following::div[3]</value>
+      <webElementGuid>a9a0c7c8-499b-4586-8eb9-cf42547f2c07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BERANDA'])[1]/following::div[3]</value>
+      <webElementGuid>db707ae1-5c9c-4fdb-b22b-f2f3a25290ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div/div</value>
+      <webElementGuid>3f15cc63-01a1-43f3-86da-7fe7a023a23d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' sudah opening  nominal : Rp 5.000.000,-  by : ARDY AZHARI  closing  ORDER ' or . = ' sudah opening  nominal : Rp 5.000.000,-  by : ARDY AZHARI  closing  ORDER ')]</value>
+      <webElementGuid>d079d95b-ca40-452e-9b1f-f48bc00f63f0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

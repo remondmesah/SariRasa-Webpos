@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Order</name>
+   <tag></tag>
+   <elementGuidId>11acb6ce-7c47-410b-80ab-4c8cbee24141</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.border-0.shadow-sm.btn-confirm.btn-features.bg-primary.p-2.btn-secondary > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/div/div[4]/div/div[3]/div/div[2]/div/div/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d4b96117-324a-428e-ad49-e0ce9110746b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Order </value>
+      <webElementGuid>8ee550aa-144e-49ad-a853-9f88d3d6e399</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;position-absolute top-0 bottom-0 end-0 start-0 bg-white&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row justify-content-between justify-content-md-center me-1 ms-1 align-items-center&quot;]/div[@id=&quot;main&quot;]/div[@class=&quot;container-fluid p-0&quot;]/div[4]/div[@class=&quot;position-fixed top-0 bottom-0 start-0 end-0 bg-light overflow-auto container-fluid&quot;]/div[@class=&quot;container py-3 mt-2 shadow rounded-lg&quot;]/div[@class=&quot;row align-items-center text-left&quot;]/div[@class=&quot;col col-md-4 col-sm-7 align-self-start align-self-md-center pl-0&quot;]/div[@class=&quot;d-flex justify-content-md-center justify-content-start gap-2&quot;]/div[@class=&quot;b-overlay-wrap position-relative d-inline-block&quot;]/button[@class=&quot;btn border-0 shadow-sm btn-confirm btn-features bg-primary p-2 btn-secondary&quot;]/span[1]</value>
+      <webElementGuid>b6312878-f955-4724-8c50-f12e23393138</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/div/div[4]/div/div[3]/div/div[2]/div/div/button/span</value>
+      <webElementGuid>2123c95c-23e4-4dae-b280-4b7fcd98d7e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/following::span[1]</value>
+      <webElementGuid>901d3495-c141-4bc1-b219-574e2fd6a187</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Serve'])[1]/following::span[1]</value>
+      <webElementGuid>f48b7275-c0d5-432c-913e-0926c428dbfe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sidebar'])[1]/preceding::span[1]</value>
+      <webElementGuid>8e061e8e-6201-4989-bb84-80644f528c1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Main Order'])[1]/preceding::span[4]</value>
+      <webElementGuid>d4e97156-1fcd-46e7-8269-a8aeee9a7155</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Order']/parent::*</value>
+      <webElementGuid>6b8a8d2e-8597-4db3-af0b-61224d8e005d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/button/span</value>
+      <webElementGuid>545f5d38-5a2f-46cf-a14f-3cf8116a0f7b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Order ' or . = ' Order ')]</value>
+      <webElementGuid>d942136f-263d-4288-b970-bf98ee9e0cea</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

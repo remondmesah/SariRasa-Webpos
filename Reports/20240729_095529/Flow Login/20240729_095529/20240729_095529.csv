@@ -1,0 +1,140 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Flow Login,Chrome 126.0.0.0,,,29-07-2024 09:55:36,29-07-2024 09:58:15,2m - 39.463s,PASSED
+,,,,,,,
+Test Cases/01. Login - logout - managerial,Chrome 126.0.0.0,,,29-07-2024 09:55:36,29-07-2024 09:56:17,41.041s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,29-07-2024 09:55:37,29-07-2024 09:55:40,3.029s,PASSED
+"navigateToUrl(""http://172.25.5.52:8383/login"")",Chrome 126.0.0.0,,,29-07-2024 09:55:40,29-07-2024 09:55:40,0.097s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,29-07-2024 09:55:40,29-07-2024 09:55:43,3.421s,PASSED
+"click(findTestObject(""Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK""))",Chrome 126.0.0.0,,,29-07-2024 09:55:43,29-07-2024 09:55:44,0.690s,PASSED
+"setText(findTestObject(""Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK""), ""54760"")",Chrome 126.0.0.0,,,29-07-2024 09:55:44,29-07-2024 09:55:45,0.739s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword""), ""Cg+cUiY7xQqTg1iegvaWgg=="")",Chrome 126.0.0.0,,,29-07-2024 09:55:45,29-07-2024 09:55:45,0.445s,PASSED
+"click(findTestObject(""Object Repository/Login_Sarirasa WebPOS/button_Login""))",Chrome 126.0.0.0,,,29-07-2024 09:55:45,29-07-2024 09:55:45,0.377s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa""), ""kasir_1"", true)",Chrome 126.0.0.0,,,29-07-2024 09:55:45,29-07-2024 09:55:48,2.249s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa""), ""kasir_2"", true)",Chrome 126.0.0.0,,,29-07-2024 09:55:48,29-07-2024 09:55:49,1.072s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa""), ""kasir_3"", true)",Chrome 126.0.0.0,,,29-07-2024 09:55:49,29-07-2024 09:55:50,1.049s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa""), ""kasir_4"", true)",Chrome 126.0.0.0,,,29-07-2024 09:55:50,29-07-2024 09:55:51,1.019s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa""), ""spv"", true)",Chrome 126.0.0.0,,,29-07-2024 09:55:51,29-07-2024 09:55:52,1.095s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""59"", true)",Chrome 126.0.0.0,,,29-07-2024 09:55:52,29-07-2024 09:55:53,1.086s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""75"", true)",Chrome 126.0.0.0,,,29-07-2024 09:55:53,29-07-2024 09:55:54,1.044s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""76"", true)",Chrome 126.0.0.0,,,29-07-2024 09:55:54,29-07-2024 09:55:55,1.098s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""77"", true)",Chrome 126.0.0.0,,,29-07-2024 09:55:55,29-07-2024 09:55:56,1.062s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""78"", true)",Chrome 126.0.0.0,,,29-07-2024 09:55:56,29-07-2024 09:55:57,1.007s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""79"", true)",Chrome 126.0.0.0,,,29-07-2024 09:55:57,29-07-2024 09:55:58,1.259s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""80"", true)",Chrome 126.0.0.0,,,29-07-2024 09:55:58,29-07-2024 09:56:00,1.170s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""81"", true)",Chrome 126.0.0.0,,,29-07-2024 09:56:00,29-07-2024 09:56:01,1.164s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""82"", true)",Chrome 126.0.0.0,,,29-07-2024 09:56:01,29-07-2024 09:56:02,1.158s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""83"", true)",Chrome 126.0.0.0,,,29-07-2024 09:56:02,29-07-2024 09:56:03,1.158s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""59"", true)",Chrome 126.0.0.0,,,29-07-2024 09:56:03,29-07-2024 09:56:04,1.108s,PASSED
+"click(findTestObject(""Object Repository/Login_Sarirasa WebPOS/button_Simpan""))",Chrome 126.0.0.0,,,29-07-2024 09:56:04,29-07-2024 09:56:05,0.387s,PASSED
+"click(findTestObject(""Page_Sarirasa WebPOS/button_Batal""))",Chrome 126.0.0.0,,,29-07-2024 09:56:05,29-07-2024 09:56:05,0.557s,PASSED
+"click(findTestObject(""Object Repository/Login_Sarirasa WebPOS/button_Simpan""))",Chrome 126.0.0.0,,,29-07-2024 09:56:05,29-07-2024 09:56:07,1.510s,PASSED
+"click(findTestObject(""Object Repository/Login_Sarirasa WebPOS/button_OK""))",Chrome 126.0.0.0,,,29-07-2024 09:56:07,29-07-2024 09:56:07,0.628s,PASSED
+delay(3),Chrome 126.0.0.0,,,29-07-2024 09:56:07,29-07-2024 09:56:10,3.083s,PASSED
+"click(findTestObject(""Login_Sarirasa WebPOS/span_LOGOUT""))",Chrome 126.0.0.0,,,29-07-2024 09:56:10,29-07-2024 09:56:14,3.721s,PASSED
+delay(3),Chrome 126.0.0.0,,,29-07-2024 09:56:14,29-07-2024 09:56:17,3.010s,PASSED
+,,,,,,,
+Test Cases/02. Login - managerial,Chrome 126.0.0.0,,,29-07-2024 09:56:17,29-07-2024 09:56:33,16.056s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,29-07-2024 09:56:17,29-07-2024 09:56:19,1.587s,PASSED
+"navigateToUrl(""http://172.25.5.52:8383/login"")",Chrome 126.0.0.0,,,29-07-2024 09:56:19,29-07-2024 09:56:22,3.462s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,29-07-2024 09:56:22,29-07-2024 09:56:22,0.103s,PASSED
+"click(findTestObject(""Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK""))",Chrome 126.0.0.0,,,29-07-2024 09:56:22,29-07-2024 09:56:23,0.597s,PASSED
+"setText(findTestObject(""Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK""), ""54760"")",Chrome 126.0.0.0,,,29-07-2024 09:56:23,29-07-2024 09:56:24,0.872s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword""), ""Cg+cUiY7xQqTg1iegvaWgg=="")",Chrome 126.0.0.0,,,29-07-2024 09:56:24,29-07-2024 09:56:24,0.457s,PASSED
+"click(findTestObject(""Object Repository/Login_Sarirasa WebPOS/button_Login""))",Chrome 126.0.0.0,,,29-07-2024 09:56:24,29-07-2024 09:56:25,0.424s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa""), ""spv"", true)",Chrome 126.0.0.0,,,29-07-2024 09:56:25,29-07-2024 09:56:26,1.431s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""59"", true)",Chrome 126.0.0.0,,,29-07-2024 09:56:26,29-07-2024 09:56:27,1.032s,PASSED
+"click(findTestObject(""Object Repository/Login_Sarirasa WebPOS/button_Simpan""))",Chrome 126.0.0.0,,,29-07-2024 09:56:27,29-07-2024 09:56:28,0.363s,PASSED
+"click(findTestObject(""Object Repository/Login_Sarirasa WebPOS/button_OK""))",Chrome 126.0.0.0,,,29-07-2024 09:56:28,29-07-2024 09:56:28,0.514s,PASSED
+delay(5),Chrome 126.0.0.0,,,29-07-2024 09:56:28,29-07-2024 09:56:33,5.026s,PASSED
+,,,,,,,
+Test Cases/03. Login - logout - kasir A - kasir satu,Chrome 126.0.0.0,,,29-07-2024 09:56:33,29-07-2024 09:57:08,35.084s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,29-07-2024 09:56:33,29-07-2024 09:56:35,1.663s,PASSED
+"navigateToUrl(""http://172.25.5.52:8383/login"")",Chrome 126.0.0.0,,,29-07-2024 09:56:35,29-07-2024 09:56:39,3.580s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,29-07-2024 09:56:39,29-07-2024 09:56:39,0.076s,PASSED
+"click(findTestObject(""Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK""))",Chrome 126.0.0.0,,,29-07-2024 09:56:39,29-07-2024 09:56:39,0.448s,PASSED
+"setText(findTestObject(""Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK""), ""61653"")",Chrome 126.0.0.0,,,29-07-2024 09:56:39,29-07-2024 09:56:40,0.800s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword""), ""Cg+cUiY7xQqTg1iegvaWgg=="")",Chrome 126.0.0.0,,,29-07-2024 09:56:40,29-07-2024 09:56:40,0.390s,PASSED
+"click(findTestObject(""Object Repository/Login_Sarirasa WebPOS/button_Login""))",Chrome 126.0.0.0,,,29-07-2024 09:56:40,29-07-2024 09:56:41,0.387s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa""), ""kasir_1"", true)",Chrome 126.0.0.0,,,29-07-2024 09:56:41,29-07-2024 09:56:42,1.414s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa""), ""kasir_2"", true)",Chrome 126.0.0.0,,,29-07-2024 09:56:42,29-07-2024 09:56:43,1.015s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa""), ""kasir_3"", true)",Chrome 126.0.0.0,,,29-07-2024 09:56:43,29-07-2024 09:56:44,1.032s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa""), ""kasir_4"", true)",Chrome 126.0.0.0,,,29-07-2024 09:56:44,29-07-2024 09:56:45,1.084s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa""), ""kasir_1"", true)",Chrome 126.0.0.0,,,29-07-2024 09:56:45,29-07-2024 09:56:46,0.948s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""59"", true)",Chrome 126.0.0.0,,,29-07-2024 09:56:46,29-07-2024 09:56:47,1.016s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""75"", true)",Chrome 126.0.0.0,,,29-07-2024 09:56:47,29-07-2024 09:56:48,1.105s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""76"", true)",Chrome 126.0.0.0,,,29-07-2024 09:56:48,29-07-2024 09:56:50,1.122s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""77"", true)",Chrome 126.0.0.0,,,29-07-2024 09:56:50,29-07-2024 09:56:51,1.073s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""78"", true)",Chrome 126.0.0.0,,,29-07-2024 09:56:51,29-07-2024 09:56:52,1.067s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""79"", true)",Chrome 126.0.0.0,,,29-07-2024 09:56:52,29-07-2024 09:56:53,1.144s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""80"", true)",Chrome 126.0.0.0,,,29-07-2024 09:56:53,29-07-2024 09:56:54,1.221s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""81"", true)",Chrome 126.0.0.0,,,29-07-2024 09:56:54,29-07-2024 09:56:55,1.220s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""82"", true)",Chrome 126.0.0.0,,,29-07-2024 09:56:55,29-07-2024 09:56:56,1.160s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""83"", true)",Chrome 126.0.0.0,,,29-07-2024 09:56:56,29-07-2024 09:56:58,1.209s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""59"", true)",Chrome 126.0.0.0,,,29-07-2024 09:56:58,29-07-2024 09:56:59,1.101s,PASSED
+"click(findTestObject(""Login_Sarirasa WebPOS/button_Simpan""))",Chrome 126.0.0.0,,,29-07-2024 09:56:59,29-07-2024 09:56:59,0.378s,PASSED
+"click(findTestObject(""Page_Sarirasa WebPOS/button_Batal""))",Chrome 126.0.0.0,,,29-07-2024 09:56:59,29-07-2024 09:57:00,0.612s,PASSED
+"click(findTestObject(""Login_Sarirasa WebPOS/button_Simpan""))",Chrome 126.0.0.0,,,29-07-2024 09:57:00,29-07-2024 09:57:01,1.544s,PASSED
+"click(findTestObject(""Login_Sarirasa WebPOS/button_OK""))",Chrome 126.0.0.0,,,29-07-2024 09:57:01,29-07-2024 09:57:02,0.548s,PASSED
+delay(3),Chrome 126.0.0.0,,,29-07-2024 09:57:02,29-07-2024 09:57:05,3.010s,PASSED
+"click(findTestObject(""Login_Sarirasa WebPOS/span_LOGOUT""))",Chrome 126.0.0.0,,,29-07-2024 09:57:05,29-07-2024 09:57:05,0.411s,PASSED
+delay(3),Chrome 126.0.0.0,,,29-07-2024 09:57:05,29-07-2024 09:57:08,3.008s,PASSED
+,,,,,,,
+Test Cases/04. Login - kasir A,Chrome 126.0.0.0,,,29-07-2024 09:57:08,29-07-2024 09:57:24,15.753s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,29-07-2024 09:57:08,29-07-2024 09:57:10,1.578s,PASSED
+"navigateToUrl(""http://172.25.5.52:8383/login"")",Chrome 126.0.0.0,,,29-07-2024 09:57:10,29-07-2024 09:57:13,3.394s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,29-07-2024 09:57:13,29-07-2024 09:57:13,0.072s,PASSED
+"click(findTestObject(""Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK""))",Chrome 126.0.0.0,,,29-07-2024 09:57:13,29-07-2024 09:57:14,0.510s,PASSED
+"setText(findTestObject(""Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK""), ""61653"")",Chrome 126.0.0.0,,,29-07-2024 09:57:14,29-07-2024 09:57:15,0.807s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword""), ""Cg+cUiY7xQqTg1iegvaWgg=="")",Chrome 126.0.0.0,,,29-07-2024 09:57:15,29-07-2024 09:57:15,0.403s,PASSED
+"click(findTestObject(""Object Repository/Login_Sarirasa WebPOS/button_Login""))",Chrome 126.0.0.0,,,29-07-2024 09:57:15,29-07-2024 09:57:16,0.353s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa""), ""kasir_1"", true)",Chrome 126.0.0.0,,,29-07-2024 09:57:16,29-07-2024 09:57:17,1.436s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""59"", true)",Chrome 126.0.0.0,,,29-07-2024 09:57:17,29-07-2024 09:57:18,1.105s,PASSED
+"click(findTestObject(""Object Repository/Login_Sarirasa WebPOS/button_Simpan""))",Chrome 126.0.0.0,,,29-07-2024 09:57:18,29-07-2024 09:57:18,0.371s,PASSED
+"click(findTestObject(""Object Repository/Login_Sarirasa WebPOS/button_OK""))",Chrome 126.0.0.0,,,29-07-2024 09:57:18,29-07-2024 09:57:19,0.566s,PASSED
+delay(5),Chrome 126.0.0.0,,,29-07-2024 09:57:19,29-07-2024 09:57:24,5.018s,PASSED
+,,,,,,,
+Test Cases/05. Login - logout - kasir B - kasir tiga,Chrome 126.0.0.0,,,29-07-2024 09:57:24,29-07-2024 09:57:59,35.267s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,29-07-2024 09:57:24,29-07-2024 09:57:26,1.741s,PASSED
+"navigateToUrl(""http://172.25.5.52:8383/login"")",Chrome 126.0.0.0,,,29-07-2024 09:57:26,29-07-2024 09:57:29,3.419s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,29-07-2024 09:57:29,29-07-2024 09:57:30,0.073s,PASSED
+"click(findTestObject(""Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK""))",Chrome 126.0.0.0,,,29-07-2024 09:57:30,29-07-2024 09:57:30,0.584s,PASSED
+"setText(findTestObject(""Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK""), ""58035"")",Chrome 126.0.0.0,,,29-07-2024 09:57:30,29-07-2024 09:57:31,0.740s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword""), ""Cg+cUiY7xQqTg1iegvaWgg=="")",Chrome 126.0.0.0,,,29-07-2024 09:57:31,29-07-2024 09:57:31,0.456s,PASSED
+"click(findTestObject(""Object Repository/Login_Sarirasa WebPOS/button_Login""))",Chrome 126.0.0.0,,,29-07-2024 09:57:31,29-07-2024 09:57:32,0.385s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa""), ""kasir_1"", true)",Chrome 126.0.0.0,,,29-07-2024 09:57:32,29-07-2024 09:57:33,1.561s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa""), ""kasir_2"", true)",Chrome 126.0.0.0,,,29-07-2024 09:57:33,29-07-2024 09:57:34,1.056s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa""), ""kasir_3"", true)",Chrome 126.0.0.0,,,29-07-2024 09:57:34,29-07-2024 09:57:35,0.994s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa""), ""kasir_4"", true)",Chrome 126.0.0.0,,,29-07-2024 09:57:35,29-07-2024 09:57:36,1.091s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa""), ""kasir_3"", true)",Chrome 126.0.0.0,,,29-07-2024 09:57:36,29-07-2024 09:57:37,1.061s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""59"", true)",Chrome 126.0.0.0,,,29-07-2024 09:57:37,29-07-2024 09:57:38,0.953s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""75"", true)",Chrome 126.0.0.0,,,29-07-2024 09:57:38,29-07-2024 09:57:39,1.069s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""76"", true)",Chrome 126.0.0.0,,,29-07-2024 09:57:39,29-07-2024 09:57:41,1.117s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""77"", true)",Chrome 126.0.0.0,,,29-07-2024 09:57:41,29-07-2024 09:57:42,1.156s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""78"", true)",Chrome 126.0.0.0,,,29-07-2024 09:57:42,29-07-2024 09:57:43,1.053s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""79"", true)",Chrome 126.0.0.0,,,29-07-2024 09:57:43,29-07-2024 09:57:44,1.166s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""80"", true)",Chrome 126.0.0.0,,,29-07-2024 09:57:44,29-07-2024 09:57:45,1.220s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""81"", true)",Chrome 126.0.0.0,,,29-07-2024 09:57:45,29-07-2024 09:57:46,1.116s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""82"", true)",Chrome 126.0.0.0,,,29-07-2024 09:57:46,29-07-2024 09:57:47,1.054s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""83"", true)",Chrome 126.0.0.0,,,29-07-2024 09:57:47,29-07-2024 09:57:49,1.171s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""59"", true)",Chrome 126.0.0.0,,,29-07-2024 09:57:49,29-07-2024 09:57:50,1.086s,PASSED
+"click(findTestObject(""Login_Sarirasa WebPOS/button_Simpan""))",Chrome 126.0.0.0,,,29-07-2024 09:57:50,29-07-2024 09:57:50,0.392s,PASSED
+"click(findTestObject(""Page_Sarirasa WebPOS/button_Batal""))",Chrome 126.0.0.0,,,29-07-2024 09:57:50,29-07-2024 09:57:51,0.575s,PASSED
+"click(findTestObject(""Login_Sarirasa WebPOS/button_Simpan""))",Chrome 126.0.0.0,,,29-07-2024 09:57:51,29-07-2024 09:57:52,1.533s,PASSED
+"click(findTestObject(""Login_Sarirasa WebPOS/button_OK""))",Chrome 126.0.0.0,,,29-07-2024 09:57:52,29-07-2024 09:57:53,0.591s,PASSED
+delay(3),Chrome 126.0.0.0,,,29-07-2024 09:57:53,29-07-2024 09:57:56,3.020s,PASSED
+"click(findTestObject(""Login_Sarirasa WebPOS/span_LOGOUT""))",Chrome 126.0.0.0,,,29-07-2024 09:57:56,29-07-2024 09:57:56,0.558s,PASSED
+delay(3),Chrome 126.0.0.0,,,29-07-2024 09:57:56,29-07-2024 09:57:59,3.008s,PASSED
+,,,,,,,
+Test Cases/06. Login - kasir B,Chrome 126.0.0.0,,,29-07-2024 09:57:59,29-07-2024 09:58:15,15.932s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,29-07-2024 09:57:59,29-07-2024 09:58:01,1.612s,PASSED
+"navigateToUrl(""http://172.25.5.52:8383/login"")",Chrome 126.0.0.0,,,29-07-2024 09:58:01,29-07-2024 09:58:01,0.048s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,29-07-2024 09:58:01,29-07-2024 09:58:04,3.361s,PASSED
+"click(findTestObject(""Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK""))",Chrome 126.0.0.0,,,29-07-2024 09:58:04,29-07-2024 09:58:05,0.619s,PASSED
+"setText(findTestObject(""Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK""), ""58035"")",Chrome 126.0.0.0,,,29-07-2024 09:58:05,29-07-2024 09:58:06,0.802s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword""), ""Cg+cUiY7xQqTg1iegvaWgg=="")",Chrome 126.0.0.0,,,29-07-2024 09:58:06,29-07-2024 09:58:06,0.434s,PASSED
+"click(findTestObject(""Object Repository/Login_Sarirasa WebPOS/button_Login""))",Chrome 126.0.0.0,,,29-07-2024 09:58:06,29-07-2024 09:58:07,0.393s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa""), ""kasir_3"", true)",Chrome 126.0.0.0,,,29-07-2024 09:58:07,29-07-2024 09:58:08,1.500s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032""), ""59"", true)",Chrome 126.0.0.0,,,29-07-2024 09:58:08,29-07-2024 09:58:09,1.096s,PASSED
+"click(findTestObject(""Object Repository/Login_Sarirasa WebPOS/button_Simpan""))",Chrome 126.0.0.0,,,29-07-2024 09:58:09,29-07-2024 09:58:10,0.350s,PASSED
+"click(findTestObject(""Object Repository/Login_Sarirasa WebPOS/button_OK""))",Chrome 126.0.0.0,,,29-07-2024 09:58:10,29-07-2024 09:58:10,0.572s,PASSED
+delay(5),Chrome 126.0.0.0,,,29-07-2024 09:58:10,29-07-2024 09:58:15,5.005s,PASSED

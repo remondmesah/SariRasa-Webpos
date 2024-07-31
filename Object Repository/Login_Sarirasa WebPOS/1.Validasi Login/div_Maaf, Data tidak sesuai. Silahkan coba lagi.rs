@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Maaf, Data tidak sesuai. Silahkan coba lagi</name>
+   <tag></tag>
+   <elementGuidId>6fdb2ab0-80c0-4546-a893-c2b85db2420e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.alert.alert-dismissible.alert-danger</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>35be4084-e110-419f-89aa-7f8853d918f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>alert</value>
+      <webElementGuid>79d66508-6819-4fbb-a9c2-f36fc2a3b444</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-live</name>
+      <type>Main</type>
+      <value>polite</value>
+      <webElementGuid>e49d2fad-a840-487a-a9b1-bf5c969e7033</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-atomic</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>8a246253-05a1-4df2-a8de-6db8e8997816</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>alert alert-dismissible alert-danger</value>
+      <webElementGuid>04da4682-65f8-492e-b540-cb15f4667aef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>×Maaf, Data tidak sesuai. Silahkan coba lagi!</value>
+      <webElementGuid>6a915ebb-0a96-4169-ae31-87c1bb030fa7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;loginbg py-5 text-center&quot;]/div[@class=&quot;container-fluid h-100 position-relative&quot;]/div[@class=&quot;alert alert-dismissible alert-danger&quot;]</value>
+      <webElementGuid>ca1729ee-2350-477f-ab1f-aad37a3a6709</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div</value>
+      <webElementGuid>c017a3e0-cf2e-45c0-aae0-a0d24aa0da9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='C90 - SKS WIDYA CHANDRA'])[1]/preceding::div[1]</value>
+      <webElementGuid>a78f9c83-30d4-4078-bde6-b1e375985d56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Maaf, Data tidak sesuai. Silahkan coba lagi!']/parent::*</value>
+      <webElementGuid>e48ef1be-25c8-4cb4-9832-03bafadb0cfa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div</value>
+      <webElementGuid>047ac931-4ddc-4a69-9678-f34abdb6a69a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '×Maaf, Data tidak sesuai. Silahkan coba lagi!' or . = '×Maaf, Data tidak sesuai. Silahkan coba lagi!')]</value>
+      <webElementGuid>7176a48f-4038-43b9-b740-e3febab0783b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

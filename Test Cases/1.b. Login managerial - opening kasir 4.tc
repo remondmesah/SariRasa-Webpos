@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1.b. Login managerial - opening kasir 4</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0127201d-c65d-49c6-b738-38c5a8345baf</testCaseGuid>
+</TestCaseEntity>

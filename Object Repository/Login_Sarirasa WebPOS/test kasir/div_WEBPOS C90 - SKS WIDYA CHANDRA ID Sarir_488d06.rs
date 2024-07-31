@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_WEBPOS C90 - SKS WIDYA CHANDRA ID Sarir_488d06</name>
+   <tag></tag>
+   <elementGuidId>1f58fbbc-0345-4027-8bfc-48d43c187790</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.loginbg.py-5.text-center</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>45731871-13b3-4d81-82c2-02c25bce5035</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>loginbg py-5 text-center</value>
+      <webElementGuid>bd988592-9b6e-4a1b-9875-2694d018c0d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> WEBPOS C90 - SKS WIDYA CHANDRA ID Sarirasa  Password  Login  Exit v.2023-08-22© 2021 Sarirasa Group</value>
+      <webElementGuid>15359708-3a6b-43d3-8d74-d8be5b350aad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;loginbg py-5 text-center&quot;]</value>
+      <webElementGuid>ed28f87f-a698-444c-9cbe-5fe76b760ce3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div</value>
+      <webElementGuid>6abd495b-2fd3-4cb5-825f-c2ed4aee9488</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div</value>
+      <webElementGuid>7430ed52-857b-4db4-90ea-e9ccfa028c54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' WEBPOS C90 - SKS WIDYA CHANDRA ID Sarirasa  Password  Login  Exit v.2023-08-22© 2021 Sarirasa Group' or . = ' WEBPOS C90 - SKS WIDYA CHANDRA ID Sarirasa  Password  Login  Exit v.2023-08-22© 2021 Sarirasa Group')]</value>
+      <webElementGuid>25011cf6-91dc-4e78-8250-70b68acb121c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

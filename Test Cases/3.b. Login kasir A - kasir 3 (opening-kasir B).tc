@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>3.b. Login kasir A - kasir 3 (opening-kasir B)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7fe63756-e2e5-436f-89b7-026b64175761</testCaseGuid>
+</TestCaseEntity>

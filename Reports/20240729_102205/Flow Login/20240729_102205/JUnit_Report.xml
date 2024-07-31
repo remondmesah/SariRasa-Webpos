@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Flow Login" time="156.17" tests="6" failures="0" errors="0">
+   <testsuite name="Flow Login" tests="6" failures="0" errors="0" time="156.17" skipped="0" timestamp="29-07-2024T10:22:12" hostname="User - DESKTOP-SSNE543" id="Test Suites/Flow Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\SariRasa-Webpos\\Reports\\20240729_102205\\Flow Login\\20240729_102205"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\SariRasa-Webpos\\Reports\\20240729_102205\\Flow Login\\20240729_102205\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - DESKTOP-SSNE543"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="172.25.5.124"/>
+         <property name="sessionId" value="12344aaa972493a08e8eb60f4660f9d6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/01. Login - logout - managerial" time="37.491" classname="Test Cases/01. Login - logout - managerial" status="PASSED">
+         <system-out><![CDATA[29-07-2024T10:22:12 - [TEST_CASE][PASSED] - Test Cases/01. Login - logout - managerial: Test Cases/01. Login - logout - managerial
+
+29-07-2024T10:22:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-07-2024T10:22:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-07-2024T10:22:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-07-2024T10:22:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-07-2024T10:22:16 - [TEST_STEP][PASSED] - navigateToUrl("http://172.25.5.52:8383/login"): Navigate to 'http://172.25.5.52:8383/login' successfully
+
+29-07-2024T10:22:20 - [MESSAGE][PASSED] - Navigate to 'http://172.25.5.52:8383/login' successfully
+
+29-07-2024T10:22:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-07-2024T10:22:20 - [MESSAGE][PASSED] - Current window maximized
+
+29-07-2024T10:22:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK")): Object: 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK' is clicked on
+
+29-07-2024T10:22:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK' is clicked on
+
+29-07-2024T10:22:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK"), "54760"): Text '54760' is set on object 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK'
+
+29-07-2024T10:22:21 - [MESSAGE][PASSED] - Text '54760' is set on object 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK'
+
+29-07-2024T10:22:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword"), "Cg+cUiY7xQqTg1iegvaWgg=="): Text ****** has been set on object 'Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword'
+
+29-07-2024T10:22:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword'
+
+29-07-2024T10:22:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_Login")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_Login' is clicked on
+
+29-07-2024T10:22:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_Login' is clicked on
+
+29-07-2024T10:22:22 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "kasir_1", true): All options with value 'kasir_1' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:22:24 - [MESSAGE][PASSED] - All options with value 'kasir_1' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:22:24 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "kasir_2", true): All options with value 'kasir_2' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:22:25 - [MESSAGE][PASSED] - All options with value 'kasir_2' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:22:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "kasir_3", true): All options with value 'kasir_3' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:22:26 - [MESSAGE][PASSED] - All options with value 'kasir_3' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:22:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "kasir_4", true): All options with value 'kasir_4' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:22:27 - [MESSAGE][PASSED] - All options with value 'kasir_4' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:22:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "spv", true): All options with value 'spv' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:22:28 - [MESSAGE][PASSED] - All options with value 'spv' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:22:28 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "59", true): All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:22:29 - [MESSAGE][PASSED] - All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:22:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "75", true): All options with value '75' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:22:30 - [MESSAGE][PASSED] - All options with value '75' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:22:30 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "76", true): All options with value '76' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:22:31 - [MESSAGE][PASSED] - All options with value '76' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:22:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "77", true): All options with value '77' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:22:32 - [MESSAGE][PASSED] - All options with value '77' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:22:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "78", true): All options with value '78' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:22:33 - [MESSAGE][PASSED] - All options with value '78' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:22:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "79", true): All options with value '79' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:22:34 - [MESSAGE][PASSED] - All options with value '79' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:22:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "80", true): All options with value '80' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:22:35 - [MESSAGE][PASSED] - All options with value '80' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:22:35 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "81", true): All options with value '81' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:22:36 - [MESSAGE][PASSED] - All options with value '81' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:22:36 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "82", true): All options with value '82' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:22:37 - [MESSAGE][PASSED] - All options with value '82' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:22:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "83", true): All options with value '83' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:22:39 - [MESSAGE][PASSED] - All options with value '83' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:22:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "59", true): All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:22:40 - [MESSAGE][PASSED] - All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:22:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_Simpan")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_Simpan' is clicked on
+
+29-07-2024T10:22:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_Simpan' is clicked on
+
+29-07-2024T10:22:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sarirasa WebPOS/button_Batal")): Object: 'Object Repository/Page_Sarirasa WebPOS/button_Batal' is clicked on
+
+29-07-2024T10:22:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sarirasa WebPOS/button_Batal' is clicked on
+
+29-07-2024T10:22:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_Simpan")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_Simpan' is clicked on
+
+29-07-2024T10:22:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_Simpan' is clicked on
+
+29-07-2024T10:22:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_OK")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_OK' is clicked on
+
+29-07-2024T10:22:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_OK' is clicked on
+
+29-07-2024T10:22:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+29-07-2024T10:22:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-07-2024T10:22:46 - [TEST_STEP][PASSED] - click(findTestObject("Login_Sarirasa WebPOS/span_LOGOUT")): Object: 'Object Repository/Login_Sarirasa WebPOS/span_LOGOUT' is clicked on
+
+29-07-2024T10:22:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/span_LOGOUT' is clicked on
+
+29-07-2024T10:22:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+29-07-2024T10:22:50 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02. Login - managerial" time="16.282" classname="Test Cases/02. Login - managerial" status="PASSED">
+         <system-out><![CDATA[29-07-2024T10:22:50 - [TEST_CASE][PASSED] - Test Cases/02. Login - managerial: Test Cases/02. Login - managerial
+
+29-07-2024T10:22:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-07-2024T10:22:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-07-2024T10:22:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-07-2024T10:22:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-07-2024T10:22:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-07-2024T10:22:51 - [TEST_STEP][PASSED] - navigateToUrl("http://172.25.5.52:8383/login"): Navigate to 'http://172.25.5.52:8383/login' successfully
+
+29-07-2024T10:22:51 - [MESSAGE][PASSED] - Navigate to 'http://172.25.5.52:8383/login' successfully
+
+29-07-2024T10:22:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-07-2024T10:22:55 - [MESSAGE][PASSED] - Current window maximized
+
+29-07-2024T10:22:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK")): Object: 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK' is clicked on
+
+29-07-2024T10:22:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK' is clicked on
+
+29-07-2024T10:22:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK"), "54760"): Text '54760' is set on object 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK'
+
+29-07-2024T10:22:56 - [MESSAGE][PASSED] - Text '54760' is set on object 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK'
+
+29-07-2024T10:22:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword"), "Cg+cUiY7xQqTg1iegvaWgg=="): Text ****** has been set on object 'Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword'
+
+29-07-2024T10:22:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword'
+
+29-07-2024T10:22:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_Login")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_Login' is clicked on
+
+29-07-2024T10:22:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_Login' is clicked on
+
+29-07-2024T10:22:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "spv", true): All options with value 'spv' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:22:59 - [MESSAGE][PASSED] - All options with value 'spv' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:22:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "59", true): All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:23:00 - [MESSAGE][PASSED] - All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:23:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_Simpan")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_Simpan' is clicked on
+
+29-07-2024T10:23:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_Simpan' is clicked on
+
+29-07-2024T10:23:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_OK")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_OK' is clicked on
+
+29-07-2024T10:23:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_OK' is clicked on
+
+29-07-2024T10:23:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-07-2024T10:23:06 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/03. Login - logout - kasir A - kasir satu" time="35.133" classname="Test Cases/03. Login - logout - kasir A - kasir satu" status="PASSED">
+         <system-out><![CDATA[29-07-2024T10:23:06 - [TEST_CASE][PASSED] - Test Cases/03. Login - logout - kasir A - kasir satu: Test Cases/03. Login - logout - kasir A - kasir satu
+
+29-07-2024T10:23:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-07-2024T10:23:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-07-2024T10:23:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-07-2024T10:23:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-07-2024T10:23:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-07-2024T10:23:08 - [TEST_STEP][PASSED] - navigateToUrl("http://172.25.5.52:8383/login"): Navigate to 'http://172.25.5.52:8383/login' successfully
+
+29-07-2024T10:23:08 - [MESSAGE][PASSED] - Navigate to 'http://172.25.5.52:8383/login' successfully
+
+29-07-2024T10:23:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-07-2024T10:23:11 - [MESSAGE][PASSED] - Current window maximized
+
+29-07-2024T10:23:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK")): Object: 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK' is clicked on
+
+29-07-2024T10:23:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK' is clicked on
+
+29-07-2024T10:23:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK"), "61653"): Text '61653' is set on object 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK'
+
+29-07-2024T10:23:13 - [MESSAGE][PASSED] - Text '61653' is set on object 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK'
+
+29-07-2024T10:23:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword"), "Cg+cUiY7xQqTg1iegvaWgg=="): Text ****** has been set on object 'Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword'
+
+29-07-2024T10:23:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword'
+
+29-07-2024T10:23:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_Login")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_Login' is clicked on
+
+29-07-2024T10:23:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_Login' is clicked on
+
+29-07-2024T10:23:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "kasir_1", true): All options with value 'kasir_1' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:23:15 - [MESSAGE][PASSED] - All options with value 'kasir_1' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:23:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "kasir_2", true): All options with value 'kasir_2' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:23:16 - [MESSAGE][PASSED] - All options with value 'kasir_2' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:23:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "kasir_3", true): All options with value 'kasir_3' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:23:17 - [MESSAGE][PASSED] - All options with value 'kasir_3' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:23:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "kasir_4", true): All options with value 'kasir_4' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:23:18 - [MESSAGE][PASSED] - All options with value 'kasir_4' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:23:18 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "kasir_1", true): All options with value 'kasir_1' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:23:19 - [MESSAGE][PASSED] - All options with value 'kasir_1' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:23:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "59", true): All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:23:20 - [MESSAGE][PASSED] - All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:23:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "75", true): All options with value '75' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:23:21 - [MESSAGE][PASSED] - All options with value '75' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:23:21 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "76", true): All options with value '76' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:23:22 - [MESSAGE][PASSED] - All options with value '76' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:23:22 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "77", true): All options with value '77' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:23:23 - [MESSAGE][PASSED] - All options with value '77' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:23:23 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "78", true): All options with value '78' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:23:24 - [MESSAGE][PASSED] - All options with value '78' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:23:24 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "79", true): All options with value '79' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:23:25 - [MESSAGE][PASSED] - All options with value '79' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:23:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "80", true): All options with value '80' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:23:27 - [MESSAGE][PASSED] - All options with value '80' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:23:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "81", true): All options with value '81' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:23:28 - [MESSAGE][PASSED] - All options with value '81' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:23:28 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "82", true): All options with value '82' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:23:29 - [MESSAGE][PASSED] - All options with value '82' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:23:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "83", true): All options with value '83' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:23:30 - [MESSAGE][PASSED] - All options with value '83' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:23:30 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "59", true): All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:23:31 - [MESSAGE][PASSED] - All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:23:31 - [TEST_STEP][PASSED] - click(findTestObject("Login_Sarirasa WebPOS/button_Simpan")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_Simpan' is clicked on
+
+29-07-2024T10:23:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_Simpan' is clicked on
+
+29-07-2024T10:23:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sarirasa WebPOS/button_Batal")): Object: 'Object Repository/Page_Sarirasa WebPOS/button_Batal' is clicked on
+
+29-07-2024T10:23:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sarirasa WebPOS/button_Batal' is clicked on
+
+29-07-2024T10:23:32 - [TEST_STEP][PASSED] - click(findTestObject("Login_Sarirasa WebPOS/button_Simpan")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_Simpan' is clicked on
+
+29-07-2024T10:23:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_Simpan' is clicked on
+
+29-07-2024T10:23:34 - [TEST_STEP][PASSED] - click(findTestObject("Login_Sarirasa WebPOS/button_OK")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_OK' is clicked on
+
+29-07-2024T10:23:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_OK' is clicked on
+
+29-07-2024T10:23:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+29-07-2024T10:23:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-07-2024T10:23:38 - [TEST_STEP][PASSED] - click(findTestObject("Login_Sarirasa WebPOS/span_LOGOUT")): Object: 'Object Repository/Login_Sarirasa WebPOS/span_LOGOUT' is clicked on
+
+29-07-2024T10:23:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/span_LOGOUT' is clicked on
+
+29-07-2024T10:23:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+29-07-2024T10:23:41 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/04. Login - kasir A" time="15.858" classname="Test Cases/04. Login - kasir A" status="PASSED">
+         <system-out><![CDATA[29-07-2024T10:23:41 - [TEST_CASE][PASSED] - Test Cases/04. Login - kasir A: Test Cases/04. Login - kasir A
+
+29-07-2024T10:23:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-07-2024T10:23:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-07-2024T10:23:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-07-2024T10:23:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-07-2024T10:23:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-07-2024T10:23:43 - [TEST_STEP][PASSED] - navigateToUrl("http://172.25.5.52:8383/login"): Navigate to 'http://172.25.5.52:8383/login' successfully
+
+29-07-2024T10:23:43 - [MESSAGE][PASSED] - Navigate to 'http://172.25.5.52:8383/login' successfully
+
+29-07-2024T10:23:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-07-2024T10:23:46 - [MESSAGE][PASSED] - Current window maximized
+
+29-07-2024T10:23:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK")): Object: 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK' is clicked on
+
+29-07-2024T10:23:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK' is clicked on
+
+29-07-2024T10:23:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK"), "61653"): Text '61653' is set on object 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK'
+
+29-07-2024T10:23:48 - [MESSAGE][PASSED] - Text '61653' is set on object 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK'
+
+29-07-2024T10:23:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword"), "Cg+cUiY7xQqTg1iegvaWgg=="): Text ****** has been set on object 'Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword'
+
+29-07-2024T10:23:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword'
+
+29-07-2024T10:23:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_Login")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_Login' is clicked on
+
+29-07-2024T10:23:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_Login' is clicked on
+
+29-07-2024T10:23:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "kasir_1", true): All options with value 'kasir_1' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:23:50 - [MESSAGE][PASSED] - All options with value 'kasir_1' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:23:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "59", true): All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:23:51 - [MESSAGE][PASSED] - All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:23:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_Simpan")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_Simpan' is clicked on
+
+29-07-2024T10:23:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_Simpan' is clicked on
+
+29-07-2024T10:23:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_OK")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_OK' is clicked on
+
+29-07-2024T10:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_OK' is clicked on
+
+29-07-2024T10:23:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-07-2024T10:23:57 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/05. Login - logout - kasir B - kasir tiga" time="35.044" classname="Test Cases/05. Login - logout - kasir B - kasir tiga" status="PASSED">
+         <system-out><![CDATA[29-07-2024T10:23:57 - [TEST_CASE][PASSED] - Test Cases/05. Login - logout - kasir B - kasir tiga: Test Cases/05. Login - logout - kasir B - kasir tiga
+
+29-07-2024T10:23:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-07-2024T10:23:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-07-2024T10:23:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-07-2024T10:23:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-07-2024T10:23:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-07-2024T10:23:59 - [TEST_STEP][PASSED] - navigateToUrl("http://172.25.5.52:8383/login"): Navigate to 'http://172.25.5.52:8383/login' successfully
+
+29-07-2024T10:23:59 - [MESSAGE][PASSED] - Navigate to 'http://172.25.5.52:8383/login' successfully
+
+29-07-2024T10:23:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-07-2024T10:24:02 - [MESSAGE][PASSED] - Current window maximized
+
+29-07-2024T10:24:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK")): Object: 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK' is clicked on
+
+29-07-2024T10:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK' is clicked on
+
+29-07-2024T10:24:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK"), "58035"): Text '58035' is set on object 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK'
+
+29-07-2024T10:24:03 - [MESSAGE][PASSED] - Text '58035' is set on object 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK'
+
+29-07-2024T10:24:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword"), "Cg+cUiY7xQqTg1iegvaWgg=="): Text ****** has been set on object 'Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword'
+
+29-07-2024T10:24:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword'
+
+29-07-2024T10:24:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_Login")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_Login' is clicked on
+
+29-07-2024T10:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_Login' is clicked on
+
+29-07-2024T10:24:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "kasir_1", true): All options with value 'kasir_1' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:24:06 - [MESSAGE][PASSED] - All options with value 'kasir_1' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:24:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "kasir_2", true): All options with value 'kasir_2' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:24:07 - [MESSAGE][PASSED] - All options with value 'kasir_2' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:24:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "kasir_3", true): All options with value 'kasir_3' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:24:08 - [MESSAGE][PASSED] - All options with value 'kasir_3' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:24:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "kasir_4", true): All options with value 'kasir_4' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:24:09 - [MESSAGE][PASSED] - All options with value 'kasir_4' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:24:09 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "kasir_3", true): All options with value 'kasir_3' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:24:10 - [MESSAGE][PASSED] - All options with value 'kasir_3' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:24:10 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "59", true): All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:24:11 - [MESSAGE][PASSED] - All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:24:11 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "75", true): All options with value '75' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:24:12 - [MESSAGE][PASSED] - All options with value '75' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:24:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "76", true): All options with value '76' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:24:13 - [MESSAGE][PASSED] - All options with value '76' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:24:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "77", true): All options with value '77' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:24:14 - [MESSAGE][PASSED] - All options with value '77' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:24:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "78", true): All options with value '78' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:24:15 - [MESSAGE][PASSED] - All options with value '78' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:24:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "79", true): All options with value '79' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:24:16 - [MESSAGE][PASSED] - All options with value '79' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:24:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "80", true): All options with value '80' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:24:18 - [MESSAGE][PASSED] - All options with value '80' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:24:18 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "81", true): All options with value '81' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:24:19 - [MESSAGE][PASSED] - All options with value '81' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:24:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "82", true): All options with value '82' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:24:20 - [MESSAGE][PASSED] - All options with value '82' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:24:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "83", true): All options with value '83' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:24:21 - [MESSAGE][PASSED] - All options with value '83' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:24:21 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "59", true): All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:24:22 - [MESSAGE][PASSED] - All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:24:22 - [TEST_STEP][PASSED] - click(findTestObject("Login_Sarirasa WebPOS/button_Simpan")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_Simpan' is clicked on
+
+29-07-2024T10:24:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_Simpan' is clicked on
+
+29-07-2024T10:24:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sarirasa WebPOS/button_Batal")): Object: 'Object Repository/Page_Sarirasa WebPOS/button_Batal' is clicked on
+
+29-07-2024T10:24:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sarirasa WebPOS/button_Batal' is clicked on
+
+29-07-2024T10:24:23 - [TEST_STEP][PASSED] - click(findTestObject("Login_Sarirasa WebPOS/button_Simpan")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_Simpan' is clicked on
+
+29-07-2024T10:24:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_Simpan' is clicked on
+
+29-07-2024T10:24:25 - [TEST_STEP][PASSED] - click(findTestObject("Login_Sarirasa WebPOS/button_OK")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_OK' is clicked on
+
+29-07-2024T10:24:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_OK' is clicked on
+
+29-07-2024T10:24:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+29-07-2024T10:24:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-07-2024T10:24:29 - [TEST_STEP][PASSED] - click(findTestObject("Login_Sarirasa WebPOS/span_LOGOUT")): Object: 'Object Repository/Login_Sarirasa WebPOS/span_LOGOUT' is clicked on
+
+29-07-2024T10:24:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/span_LOGOUT' is clicked on
+
+29-07-2024T10:24:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+29-07-2024T10:24:32 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/06. Login - kasir B" time="15.99" classname="Test Cases/06. Login - kasir B" status="PASSED">
+         <system-out><![CDATA[29-07-2024T10:24:32 - [TEST_CASE][PASSED] - Test Cases/06. Login - kasir B: Test Cases/06. Login - kasir B
+
+29-07-2024T10:24:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-07-2024T10:24:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-07-2024T10:24:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-07-2024T10:24:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-07-2024T10:24:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-07-2024T10:24:34 - [TEST_STEP][PASSED] - navigateToUrl("http://172.25.5.52:8383/login"): Navigate to 'http://172.25.5.52:8383/login' successfully
+
+29-07-2024T10:24:34 - [MESSAGE][PASSED] - Navigate to 'http://172.25.5.52:8383/login' successfully
+
+29-07-2024T10:24:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-07-2024T10:24:37 - [MESSAGE][PASSED] - Current window maximized
+
+29-07-2024T10:24:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK")): Object: 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK' is clicked on
+
+29-07-2024T10:24:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK' is clicked on
+
+29-07-2024T10:24:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK"), "58035"): Text '58035' is set on object 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK'
+
+29-07-2024T10:24:39 - [MESSAGE][PASSED] - Text '58035' is set on object 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK'
+
+29-07-2024T10:24:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword"), "Cg+cUiY7xQqTg1iegvaWgg=="): Text ****** has been set on object 'Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword'
+
+29-07-2024T10:24:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword'
+
+29-07-2024T10:24:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_Login")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_Login' is clicked on
+
+29-07-2024T10:24:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_Login' is clicked on
+
+29-07-2024T10:24:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "kasir_3", true): All options with value 'kasir_3' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:24:41 - [MESSAGE][PASSED] - All options with value 'kasir_3' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T10:24:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "59", true): All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:24:42 - [MESSAGE][PASSED] - All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T10:24:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_Simpan")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_Simpan' is clicked on
+
+29-07-2024T10:24:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_Simpan' is clicked on
+
+29-07-2024T10:24:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_OK")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_OK' is clicked on
+
+29-07-2024T10:24:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_OK' is clicked on
+
+29-07-2024T10:24:43 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-07-2024T10:24:48 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-07-2024T10:22:12 - [TEST_SUITE][PASSED] - Flow Login: Test Cases/06. Login - kasir B]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,10 @@
+{"testCaseName":"Test Cases/001. Login - password tidak terdaftar","testCaseId":"Test Cases/001. Login - password tidak terdaftar","iterationVariableName":""}
+{"testCaseName":"Test Cases/002. Login - username tidak terdaftar","testCaseId":"Test Cases/002. Login - username tidak terdaftar","iterationVariableName":""}
+{"testCaseName":"Test Cases/01. Login - logout - managerial","testCaseId":"Test Cases/01. Login - logout - managerial","iterationVariableName":""}
+{"testCaseName":"Test Cases/02. Login managerial - managerial","testCaseId":"Test Cases/02. Login managerial - managerial","iterationVariableName":""}
+{"testCaseName":"Test Cases/03. Login managerial - kasir","testCaseId":"Test Cases/03. Login managerial - kasir","iterationVariableName":""}
+{"testCaseName":"Test Cases/04. Login - logout - kasir A - kasir 1","testCaseId":"Test Cases/04. Login - logout - kasir A - kasir 1","iterationVariableName":""}
+{"testCaseName":"Test Cases/05. Login kasir A - kasir 1","testCaseId":"Test Cases/05. Login kasir A - kasir 1","iterationVariableName":""}
+{"testCaseName":"Test Cases/06. Login - logout - kasir B - kasir 3","testCaseId":"Test Cases/06. Login - logout - kasir B - kasir 3","iterationVariableName":""}
+{"testCaseName":"Test Cases/07. Login kasir B - kasir 1 (aktive-kasir A)","testCaseId":"Test Cases/07. Login kasir B - kasir 1 (aktive-kasir A)","iterationVariableName":""}
+{"testCaseName":"Test Cases/08. Login kasir B - kasir 3","testCaseId":"Test Cases/08. Login kasir B - kasir 3","iterationVariableName":""}

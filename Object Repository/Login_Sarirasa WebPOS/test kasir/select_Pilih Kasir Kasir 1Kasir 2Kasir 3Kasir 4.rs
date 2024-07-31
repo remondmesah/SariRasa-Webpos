@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Pilih Kasir Kasir 1Kasir 2Kasir 3Kasir 4</name>
+   <tag></tag>
+   <elementGuidId>3e81bef9-c678-4465-8ade-34c37383d078</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#__BVID__19</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='__BVID__19']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>c1f22ca9-1c07-44d4-8612-f1aa9f214426</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-2 custom-select custom-select-lg</value>
+      <webElementGuid>67c9b212-12c1-4577-8821-e5d8d57eb008</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>__BVID__19</value>
+      <webElementGuid>41f9ef48-947b-4ba1-ba3c-0612ef79171a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Pilih Kasir Kasir 1Kasir 2Kasir 3Kasir 4</value>
+      <webElementGuid>cae94a63-a09e-497a-aa57-85fc8408da77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__BVID__19&quot;)</value>
+      <webElementGuid>710587f4-4acc-4d28-be98-08346fa73125</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='__BVID__19']</value>
+      <webElementGuid>7698994a-44e9-4766-95d5-e2d502352295</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div/div/select</value>
+      <webElementGuid>40723880-f25e-4137-bff1-7d9fbd783ac9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Default Printer'])[1]/following::select[1]</value>
+      <webElementGuid>1c14a86b-8965-4ad2-86b3-6adba7b782c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LOGOUT'])[1]/following::select[1]</value>
+      <webElementGuid>c6b322c0-caba-4719-9f46-26bd8325d87a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Print'])[1]/preceding::select[2]</value>
+      <webElementGuid>5b02e344-6f32-49b6-ba49-6caf6a3964f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>4d1d00e7-457c-432a-ae16-d47604382f76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = '__BVID__19' and (text() = ' Pilih Kasir Kasir 1Kasir 2Kasir 3Kasir 4' or . = ' Pilih Kasir Kasir 1Kasir 2Kasir 3Kasir 4')]</value>
+      <webElementGuid>aa87ef98-9ee8-4e79-a423-c743686e7ad2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

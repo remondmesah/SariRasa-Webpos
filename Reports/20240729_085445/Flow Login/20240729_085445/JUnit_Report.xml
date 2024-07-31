@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Flow Login" time="153.969" tests="6" failures="1" errors="0">
+   <testsuite name="Flow Login" tests="6" failures="1" errors="0" time="153.969" skipped="0" timestamp="29-07-2024T08:54:52" hostname="User - DESKTOP-SSNE543" id="Test Suites/Flow Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\SariRasa-Webpos\\Reports\\20240729_085445\\Flow Login\\20240729_085445"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\SariRasa-Webpos\\Reports\\20240729_085445\\Flow Login\\20240729_085445\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\User\\git\\SariRasa-Webpos\\Reports\\20240729_085445\\Flow Login\\20240729_085445\\1722218182140.png"/>
+         <property name="hostName" value="User - DESKTOP-SSNE543"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="172.25.5.124"/>
+         <property name="sessionId" value="ddd19663ac089ad260333764b00822ed"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/01. Login - logout - managerial" time="34.294" classname="Test Cases/01. Login - logout - managerial" status="PASSED">
+         <system-out><![CDATA[29-07-2024T08:54:52 - [TEST_CASE][PASSED] - Test Cases/01. Login - logout - managerial: Test Cases/01. Login - logout - managerial
+
+29-07-2024T08:54:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-07-2024T08:54:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-07-2024T08:54:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-07-2024T08:54:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-07-2024T08:54:56 - [TEST_STEP][PASSED] - navigateToUrl("http://172.25.5.52:8383/login"): Navigate to 'http://172.25.5.52:8383/login' successfully
+
+29-07-2024T08:55:00 - [MESSAGE][PASSED] - Navigate to 'http://172.25.5.52:8383/login' successfully
+
+29-07-2024T08:55:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-07-2024T08:55:00 - [MESSAGE][PASSED] - Current window maximized
+
+29-07-2024T08:55:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK")): Object: 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK' is clicked on
+
+29-07-2024T08:55:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK' is clicked on
+
+29-07-2024T08:55:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK"), "54760"): Text '54760' is set on object 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK'
+
+29-07-2024T08:55:01 - [MESSAGE][PASSED] - Text '54760' is set on object 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK'
+
+29-07-2024T08:55:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword"), "Cg+cUiY7xQqTg1iegvaWgg=="): Text ****** has been set on object 'Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword'
+
+29-07-2024T08:55:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword'
+
+29-07-2024T08:55:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_Login")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_Login' is clicked on
+
+29-07-2024T08:55:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_Login' is clicked on
+
+29-07-2024T08:55:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "kasir_1", true): All options with value 'kasir_1' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T08:55:04 - [MESSAGE][PASSED] - All options with value 'kasir_1' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T08:55:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "kasir_2", true): All options with value 'kasir_2' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T08:55:05 - [MESSAGE][PASSED] - All options with value 'kasir_2' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T08:55:05 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "kasir_3", true): All options with value 'kasir_3' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T08:55:06 - [MESSAGE][PASSED] - All options with value 'kasir_3' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T08:55:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "kasir_4", true): All options with value 'kasir_4' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T08:55:07 - [MESSAGE][PASSED] - All options with value 'kasir_4' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T08:55:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "spv", true): All options with value 'spv' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T08:55:08 - [MESSAGE][PASSED] - All options with value 'spv' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T08:55:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "59", true): All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:55:09 - [MESSAGE][PASSED] - All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:55:09 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "75", true): All options with value '75' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:55:10 - [MESSAGE][PASSED] - All options with value '75' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:55:10 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "76", true): All options with value '76' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:55:11 - [MESSAGE][PASSED] - All options with value '76' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:55:11 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "77", true): All options with value '77' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:55:13 - [MESSAGE][PASSED] - All options with value '77' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:55:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "78", true): All options with value '78' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:55:14 - [MESSAGE][PASSED] - All options with value '78' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:55:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "79", true): All options with value '79' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:55:15 - [MESSAGE][PASSED] - All options with value '79' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:55:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "80", true): All options with value '80' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:55:16 - [MESSAGE][PASSED] - All options with value '80' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:55:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "81", true): All options with value '81' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:55:17 - [MESSAGE][PASSED] - All options with value '81' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:55:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "82", true): All options with value '82' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:55:18 - [MESSAGE][PASSED] - All options with value '82' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:55:18 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "83", true): All options with value '83' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:55:19 - [MESSAGE][PASSED] - All options with value '83' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:55:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "59", true): All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:55:20 - [MESSAGE][PASSED] - All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:55:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_Simpan")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_Simpan' is clicked on
+
+29-07-2024T08:55:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_Simpan' is clicked on
+
+29-07-2024T08:55:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_OK")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_OK' is clicked on
+
+29-07-2024T08:55:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_OK' is clicked on
+
+29-07-2024T08:55:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-07-2024T08:55:26 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02. Login - managerial" time="16.353" classname="Test Cases/02. Login - managerial" status="PASSED">
+         <system-out><![CDATA[29-07-2024T08:55:26 - [TEST_CASE][PASSED] - Test Cases/02. Login - managerial: Test Cases/02. Login - managerial
+
+29-07-2024T08:55:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-07-2024T08:55:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-07-2024T08:55:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-07-2024T08:55:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-07-2024T08:55:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-07-2024T08:55:28 - [TEST_STEP][PASSED] - navigateToUrl("http://172.25.5.52:8383/login"): Navigate to 'http://172.25.5.52:8383/login' successfully
+
+29-07-2024T08:55:32 - [MESSAGE][PASSED] - Navigate to 'http://172.25.5.52:8383/login' successfully
+
+29-07-2024T08:55:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-07-2024T08:55:32 - [MESSAGE][PASSED] - Current window maximized
+
+29-07-2024T08:55:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK")): Object: 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK' is clicked on
+
+29-07-2024T08:55:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK' is clicked on
+
+29-07-2024T08:55:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK"), "54760"): Text '54760' is set on object 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK'
+
+29-07-2024T08:55:33 - [MESSAGE][PASSED] - Text '54760' is set on object 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK'
+
+29-07-2024T08:55:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword"), "Cg+cUiY7xQqTg1iegvaWgg=="): Text ****** has been set on object 'Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword'
+
+29-07-2024T08:55:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword'
+
+29-07-2024T08:55:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_Login")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_Login' is clicked on
+
+29-07-2024T08:55:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_Login' is clicked on
+
+29-07-2024T08:55:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "spv", true): All options with value 'spv' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T08:55:36 - [MESSAGE][PASSED] - All options with value 'spv' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T08:55:36 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "59", true): All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:55:37 - [MESSAGE][PASSED] - All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:55:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_Simpan")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_Simpan' is clicked on
+
+29-07-2024T08:55:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_Simpan' is clicked on
+
+29-07-2024T08:55:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_OK")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_OK' is clicked on
+
+29-07-2024T08:55:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_OK' is clicked on
+
+29-07-2024T08:55:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-07-2024T08:55:43 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/03. Login - logout - kasir A - kasir satu" time="39.032" classname="Test Cases/03. Login - logout - kasir A - kasir satu" status="FAILED">
+         <failure type="FAILED" message="Test Cases/03. Login - logout - kasir A - kasir satu FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'kasir_1' of object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)&#xa;	at 03. Login - logout - kasir A - kasir satu.run(03. Login - logout - kasir A - kasir satu:34)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1722218085123.run(TempTestSuite1722218085123.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa' located by '//select[@id='__BVID__19']' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[29-07-2024T08:55:43 - [TEST_CASE][FAILED] - Test Cases/03. Login - logout - kasir A - kasir satu: Test Cases/03. Login - logout - kasir A - kasir satu FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'kasir_1' of object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at 03. Login - logout - kasir A - kasir satu.run(03. Login - logout - kasir A - kasir satu:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722218085123.run(TempTestSuite1722218085123.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa' located by '//select[@id='__BVID__19']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+29-07-2024T08:55:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-07-2024T08:55:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-07-2024T08:55:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-07-2024T08:55:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-07-2024T08:55:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-07-2024T08:55:45 - [TEST_STEP][PASSED] - navigateToUrl("http://172.25.5.52:8383/login"): Navigate to 'http://172.25.5.52:8383/login' successfully
+
+29-07-2024T08:55:48 - [MESSAGE][PASSED] - Navigate to 'http://172.25.5.52:8383/login' successfully
+
+29-07-2024T08:55:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-07-2024T08:55:48 - [MESSAGE][PASSED] - Current window maximized
+
+29-07-2024T08:55:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK")): Object: 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK' is clicked on
+
+29-07-2024T08:55:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK' is clicked on
+
+29-07-2024T08:55:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK"), "61653"): Text '61653' is set on object 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK'
+
+29-07-2024T08:55:50 - [MESSAGE][PASSED] - Text '61653' is set on object 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK'
+
+29-07-2024T08:55:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword"), "Cg+cUiY7xQqTg1iegvaWgg=="): Text ****** has been set on object 'Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword'
+
+29-07-2024T08:55:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword'
+
+29-07-2024T08:55:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_Login")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_Login' is clicked on
+
+29-07-2024T08:55:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_Login' is clicked on
+
+29-07-2024T08:55:50 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "kasir_1", true): Unable to select option by value 'kasir_1' of object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'kasir_1' of object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at 03. Login - logout - kasir A - kasir satu.run(03. Login - logout - kasir A - kasir satu:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722218085123.run(TempTestSuite1722218085123.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa' located by '//select[@id='__BVID__19']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at Script1722217901707.run(Script1722217901707.groovy:34)
+	... 15 more
+)
+
+29-07-2024T08:56:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //select[@id='__BVID__19']'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-07-2024T08:56:22 - [MESSAGE][FAILED] - Unable to select option by value 'kasir_1' of object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'kasir_1' of object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at 03. Login - logout - kasir A - kasir satu.run(03. Login - logout - kasir A - kasir satu:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722218085123.run(TempTestSuite1722218085123.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa' located by '//select[@id='__BVID__19']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at Script1722217901707.run(Script1722217901707.groovy:34)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\User\\git\\SariRasa-Webpos\\Reports\\20240729_085445\\Flow Login\\20240729_085445\\1722218182140.png]]]]></system-out>
+         <system-err><![CDATA[29-07-2024T08:55:43 - [TEST_CASE][FAILED] - Test Cases/03. Login - logout - kasir A - kasir satu: Test Cases/03. Login - logout - kasir A - kasir satu FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'kasir_1' of object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at 03. Login - logout - kasir A - kasir satu.run(03. Login - logout - kasir A - kasir satu:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722218085123.run(TempTestSuite1722218085123.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa' located by '//select[@id='__BVID__19']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/04. Login - kasir A" time="16.712" classname="Test Cases/04. Login - kasir A" status="PASSED">
+         <system-out><![CDATA[29-07-2024T08:56:22 - [TEST_CASE][PASSED] - Test Cases/04. Login - kasir A: Test Cases/04. Login - kasir A
+
+29-07-2024T08:56:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-07-2024T08:56:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-07-2024T08:56:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-07-2024T08:56:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-07-2024T08:56:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-07-2024T08:56:24 - [TEST_STEP][PASSED] - navigateToUrl("http://172.25.5.52:8383/login"): Navigate to 'http://172.25.5.52:8383/login' successfully
+
+29-07-2024T08:56:27 - [MESSAGE][PASSED] - Navigate to 'http://172.25.5.52:8383/login' successfully
+
+29-07-2024T08:56:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-07-2024T08:56:27 - [MESSAGE][PASSED] - Current window maximized
+
+29-07-2024T08:56:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK")): Object: 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK' is clicked on
+
+29-07-2024T08:56:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK' is clicked on
+
+29-07-2024T08:56:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK"), "61653"): Text '61653' is set on object 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK'
+
+29-07-2024T08:56:28 - [MESSAGE][PASSED] - Text '61653' is set on object 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK'
+
+29-07-2024T08:56:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword"), "Cg+cUiY7xQqTg1iegvaWgg=="): Text ****** has been set on object 'Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword'
+
+29-07-2024T08:56:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword'
+
+29-07-2024T08:56:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_Login")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_Login' is clicked on
+
+29-07-2024T08:56:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_Login' is clicked on
+
+29-07-2024T08:56:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "kasir_1", true): All options with value 'kasir_1' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T08:56:31 - [MESSAGE][PASSED] - All options with value 'kasir_1' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T08:56:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "59", true): All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:56:33 - [MESSAGE][PASSED] - All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:56:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_Simpan")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_Simpan' is clicked on
+
+29-07-2024T08:56:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_Simpan' is clicked on
+
+29-07-2024T08:56:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_OK")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_OK' is clicked on
+
+29-07-2024T08:56:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_OK' is clicked on
+
+29-07-2024T08:56:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-07-2024T08:56:39 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/05. Login - logout - kasir B - kasir dua" time="31.245" classname="Test Cases/05. Login - logout - kasir B - kasir dua" status="PASSED">
+         <system-out><![CDATA[29-07-2024T08:56:39 - [TEST_CASE][PASSED] - Test Cases/05. Login - logout - kasir B - kasir dua: Test Cases/05. Login - logout - kasir B - kasir dua
+
+29-07-2024T08:56:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-07-2024T08:56:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-07-2024T08:56:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-07-2024T08:56:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-07-2024T08:56:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-07-2024T08:56:40 - [TEST_STEP][PASSED] - navigateToUrl("http://172.25.5.52:8383/login"): Navigate to 'http://172.25.5.52:8383/login' successfully
+
+29-07-2024T08:56:44 - [MESSAGE][PASSED] - Navigate to 'http://172.25.5.52:8383/login' successfully
+
+29-07-2024T08:56:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-07-2024T08:56:44 - [MESSAGE][PASSED] - Current window maximized
+
+29-07-2024T08:56:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK")): Object: 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK' is clicked on
+
+29-07-2024T08:56:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK' is clicked on
+
+29-07-2024T08:56:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK"), "58035"): Text '58035' is set on object 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK'
+
+29-07-2024T08:56:45 - [MESSAGE][PASSED] - Text '58035' is set on object 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK'
+
+29-07-2024T08:56:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword"), "Cg+cUiY7xQqTg1iegvaWgg=="): Text ****** has been set on object 'Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword'
+
+29-07-2024T08:56:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword'
+
+29-07-2024T08:56:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_Login")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_Login' is clicked on
+
+29-07-2024T08:56:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_Login' is clicked on
+
+29-07-2024T08:56:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "kasir_1", true): All options with value 'kasir_1' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T08:56:48 - [MESSAGE][PASSED] - All options with value 'kasir_1' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T08:56:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "kasir_2", true): All options with value 'kasir_2' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T08:56:49 - [MESSAGE][PASSED] - All options with value 'kasir_2' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T08:56:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "kasir_3", true): All options with value 'kasir_3' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T08:56:50 - [MESSAGE][PASSED] - All options with value 'kasir_3' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T08:56:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "kasir_4", true): All options with value 'kasir_4' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T08:56:51 - [MESSAGE][PASSED] - All options with value 'kasir_4' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T08:56:51 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "kasir_1", true): All options with value 'kasir_1' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T08:56:52 - [MESSAGE][PASSED] - All options with value 'kasir_1' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T08:56:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "59", true): All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:56:53 - [MESSAGE][PASSED] - All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:56:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "75", true): All options with value '75' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:56:54 - [MESSAGE][PASSED] - All options with value '75' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:56:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "76", true): All options with value '76' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:56:55 - [MESSAGE][PASSED] - All options with value '76' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:56:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "77", true): All options with value '77' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:56:56 - [MESSAGE][PASSED] - All options with value '77' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:56:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "78", true): All options with value '78' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:56:57 - [MESSAGE][PASSED] - All options with value '78' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:56:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "79", true): All options with value '79' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:56:58 - [MESSAGE][PASSED] - All options with value '79' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:56:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "80", true): All options with value '80' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:56:59 - [MESSAGE][PASSED] - All options with value '80' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:56:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "81", true): All options with value '81' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:57:00 - [MESSAGE][PASSED] - All options with value '81' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:57:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "82", true): All options with value '82' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:57:02 - [MESSAGE][PASSED] - All options with value '82' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:57:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "83", true): All options with value '83' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:57:03 - [MESSAGE][PASSED] - All options with value '83' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:57:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "59", true): All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:57:04 - [MESSAGE][PASSED] - All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:57:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_Simpan")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_Simpan' is clicked on
+
+29-07-2024T08:57:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_Simpan' is clicked on
+
+29-07-2024T08:57:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_OK")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_OK' is clicked on
+
+29-07-2024T08:57:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_OK' is clicked on
+
+29-07-2024T08:57:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-07-2024T08:57:10 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/06. Login - kasir B" time="15.77" classname="Test Cases/06. Login - kasir B" status="PASSED">
+         <system-out><![CDATA[29-07-2024T08:57:10 - [TEST_CASE][PASSED] - Test Cases/06. Login - kasir B: Test Cases/06. Login - kasir B
+
+29-07-2024T08:57:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-07-2024T08:57:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-07-2024T08:57:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-07-2024T08:57:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-07-2024T08:57:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-07-2024T08:57:12 - [TEST_STEP][PASSED] - navigateToUrl("http://172.25.5.52:8383/login"): Navigate to 'http://172.25.5.52:8383/login' successfully
+
+29-07-2024T08:57:15 - [MESSAGE][PASSED] - Navigate to 'http://172.25.5.52:8383/login' successfully
+
+29-07-2024T08:57:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-07-2024T08:57:15 - [MESSAGE][PASSED] - Current window maximized
+
+29-07-2024T08:57:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK")): Object: 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK' is clicked on
+
+29-07-2024T08:57:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK' is clicked on
+
+29-07-2024T08:57:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK"), "58035"): Text '58035' is set on object 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK'
+
+29-07-2024T08:57:16 - [MESSAGE][PASSED] - Text '58035' is set on object 'Object Repository/Login_Sarirasa WebPOS/input_ID Sarirasa_inputNIK'
+
+29-07-2024T08:57:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword"), "Cg+cUiY7xQqTg1iegvaWgg=="): Text ****** has been set on object 'Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword'
+
+29-07-2024T08:57:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Sarirasa WebPOS/input_Password_inputPassword'
+
+29-07-2024T08:57:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_Login")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_Login' is clicked on
+
+29-07-2024T08:57:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_Login' is clicked on
+
+29-07-2024T08:57:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa"), "kasir_2", true): All options with value 'kasir_2' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T08:57:19 - [MESSAGE][PASSED] - All options with value 'kasir_2' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+
+29-07-2024T08:57:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032"), "59", true): All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:57:20 - [MESSAGE][PASSED] - All options with value '59' are selected in object 'Object Repository/Login_Sarirasa WebPOS/select_Pilih Default PrinterPrinter HO (Gud_45e032'  using regular expression
+
+29-07-2024T08:57:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_Simpan")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_Simpan' is clicked on
+
+29-07-2024T08:57:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_Simpan' is clicked on
+
+29-07-2024T08:57:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Sarirasa WebPOS/button_OK")): Object: 'Object Repository/Login_Sarirasa WebPOS/button_OK' is clicked on
+
+29-07-2024T08:57:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Sarirasa WebPOS/button_OK' is clicked on
+
+29-07-2024T08:57:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-07-2024T08:57:26 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-07-2024T08:54:52 - [TEST_SUITE][FAILED] - Flow Login: Test Cases/03. Login - logout - kasir A - kasir satu FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'kasir_1' of object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at 03. Login - logout - kasir A - kasir satu.run(03. Login - logout - kasir A - kasir satu:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722218085123.run(TempTestSuite1722218085123.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa' located by '//select[@id='__BVID__19']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[29-07-2024T08:54:52 - [TEST_SUITE][FAILED] - Flow Login: Test Cases/03. Login - logout - kasir A - kasir satu FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'kasir_1' of object 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at 03. Login - logout - kasir A - kasir satu.run(03. Login - logout - kasir A - kasir satu:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722218085123.run(TempTestSuite1722218085123.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_Sarirasa WebPOS/select_Tipe User Kasir 1Kasir 2Kasir 3Kasir_c131aa' located by '//select[@id='__BVID__19']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

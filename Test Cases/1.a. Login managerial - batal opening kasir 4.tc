@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1.a. Login managerial - batal opening kasir 4</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5554fa5a-8434-4fc8-995a-0f8519ea12a7</testCaseGuid>
+</TestCaseEntity>

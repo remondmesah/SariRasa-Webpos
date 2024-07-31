@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_SEDANG OPENING  di kasir_4  nominal  Rp5.000.000,-  by  SURIPTO  CLOSING  ORDER  SOON</name>
+   <tag></tag>
+   <elementGuidId>018e7fc1-2840-4adb-b41e-83127a78437a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;app&quot;]/div/main/div[2]/div/div[1]/div[4]/div[1]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e84039b3-ca9d-477b-a05c-294f2ca6d232</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col d-flex align-items-start</value>
+      <webElementGuid>13f06d40-29b2-48a5-b1dc-18dbb1ccf34a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> SEDANG OPENING  di kasir_4  nominal : Rp 5.000.000,-  by : SURIPTO  CLOSING  ORDER  SOON </value>
+      <webElementGuid>cf8ad794-96a4-40c0-a018-0a3f69385b84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;home position-fixed top-0 end-0 bottom-0 start-0&quot;]/main[@class=&quot;ps-4 row justify-content-center&quot;]/div[@class=&quot;col-10&quot;]/div[@class=&quot;HomeSPV&quot;]/div[@class=&quot;row rows-col-12 gap-4 panel-scroll&quot;]/div[@class=&quot;col d-flex align-items-start&quot;]</value>
+      <webElementGuid>2c6b18cd-4830-444c-a429-27a70dfce527</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/main/div[2]/div/div/div[6]</value>
+      <webElementGuid>47c587aa-d7fc-49f2-aeb8-7413b235c2ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SOON'])[1]/following::div[1]</value>
+      <webElementGuid>33d2bc38-e393-4724-a940-41cf9a2f4fe6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TIP BOX'])[1]/following::div[2]</value>
+      <webElementGuid>2a3c21fe-a556-42d4-b718-366a1a3cfe65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[6]</value>
+      <webElementGuid>7f7c25df-50cb-4a6d-98cd-5b68962ff3e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' SEDANG OPENING  di kasir_4  nominal : Rp 5.000.000,-  by : SURIPTO  CLOSING  ORDER  SOON ' or . = ' SEDANG OPENING  di kasir_4  nominal : Rp 5.000.000,-  by : SURIPTO  CLOSING  ORDER  SOON ')]</value>
+      <webElementGuid>4587de1d-ed8a-437b-bc5a-a838ee4f98a1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
